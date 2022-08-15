@@ -617,7 +617,7 @@ def onmessage(update,bot:ObigramClient):
         if '/start' in msgText:
             reply_markup = inlineKeyboardMarkup(
                 r1=[inlineKeyboardButton('Canal de soporte', url='https://elquetedelagana.cu'),
-                    inlineKeyboardButton('⚙ Soporte ⚙', url='https://t.me/studio_apps_dev')]
+                    inlineKeyboardButton('⚙ Soporte ⚙', url='https://t.me/Alerxo5000_bot')]
             )
             bot.editMessageText(message,infos.dashboard(),parse_mode='html',reply_markup=reply_markup)
         elif '/files' == msgText and user_info['cloudtype']=='moodle':
