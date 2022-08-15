@@ -244,7 +244,7 @@ def onmessage(update,bot:ObigramClient):
         else:
             mensaje = "🚷 No tienes Acceso 🚷"
             reply_markup = inlineKeyboardMarkup(
-                r1=[inlineKeyboardButton('⚙Contactar Soporte⚙',url='https://t.me/studio_apps_dev')]
+                r1=[inlineKeyboardButton('⚙Contactar Soporte⚙',url='https://t.me/AlejandroPupo2001')]
             )
             bot.sendMessage(update.message.chat.id,mensaje,reply_markup=reply_markup)
             return
